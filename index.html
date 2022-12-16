@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <!-- <div class="main">
+        <div id="box">
+            <h2>1) What are avacados?</h2>
+            <div class="row">
+                <label for="option1">A) Option 1</label>
+                <input id="option1" type="radio" value="A"/>
+            </div>
+            <div class="row">
+                <label for="option2">B) Option 2</label>
+                <input id="option2" type="radio" value="B" />
+            </div>
+            <div class="row">
+                <label for="option3">C) Option 3</label>
+                <input id="option3" type="radio" value="C" />
+            <div class="row">
+                    <label for="option4">D) Option 4</label>
+                    <input id="option4" type="radio" value="D" />
+            </div>
+    </div>
+</div>
+    </div> -->
+    <div class="container">
+        <div id="timer"></div>
+        <div class="score"></div>
+    </div> 
+            <h1 id="game-title">  Timed Quiz</h1>
+            <h2 id="title"> Wrong answers equal 10 second time deduction!</h2>
+            <button id="start">Start Quiz</button>
+            <div class="score-container hide">
+                <h3>Enter your initials</h3>
+                <input type="text" id="initials-input">
+                <button id="save-button">Save</button>
+            </div>
+
+        </div>
+        <div class="quiz-container">
+            <div class="question-container hide" id="question">
+                <div class="answer-container">
+                    <button class="option" onclick="answerCheck(event)" id="op0"></button>
+                    <button class="option" onclick="answerCheck(event)" id="op1"></button>
+                    <button class="option" onclick="answerCheck(event)" id="op2"></button>
+                    <button class="option" onclick="answerCheck(event)" id="op3"></button>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
